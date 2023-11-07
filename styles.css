@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha';
+}
+
+body{
+    background-color: #333;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+section{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13em;
+}
+#inicio{
+  background-image:  linear-gradient(rgba(0,25,0,0.5) 70%, black), url(img/olympic_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#a1{
+    background-image: linear-gradient(rgb(100,100,100), rgb(100,200,100));
+}
+#a2{
+    background-image: linear-gradient(rgb(143, 113, 177), rgb(4, 68, 4));
+}
+#a3{
+    background-image: linear-gradient(rgb(7, 161, 128), rgb(100,200,100));
+}
+#a4{
+    background-image: linear-gradient(rgb(230, 74, 74), rgb(182, 200, 100));
+}
+#a5{
+    background-image: linear-gradient(rgb(100, 100, 100), rgb(54, 125, 206));
+}
+#a6{
+    background-image: linear-gradient(rgb(240, 134, 115), rgb(238, 158, 39));
+}
+#a7{
+    background-image: linear-gradient(rgb(84, 233, 64), rgb(93, 231, 208));
+}
+#a8{
+    background-image: linear-gradient(rgb(214, 241, 210), rgb(132, 143, 240));
+}
+#a9{
+    background-image: linear-gradient(rgb(168, 101, 231), rgb(154, 235, 147));
+}
+#a10{
+    background-color: #ecb390;
+}
+
+
+#inicio h1{
+    font-size: 68px;
+    letter-spacing: 5px;
+}
+ 
